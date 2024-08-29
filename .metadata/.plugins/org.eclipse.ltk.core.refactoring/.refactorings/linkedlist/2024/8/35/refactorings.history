@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;linkedlist.linked_list&apos; to &apos;list_node&apos;&#x0D;&#x0A;- Original project: &apos;linkedlist&apos;&#x0D;&#x0A;- Original element: &apos;linkedlist.linked_list&apos;&#x0D;&#x0A;- Renamed element: &apos;linkedlist.list_node&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;linked_list&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;linkedlist{linked_list.java[linked_list" matchStrategy="1" name="list_node" qualified="false" references="true" similarDeclarations="false" stamp="1724927214664" textual="false" version="1.0"/>
+</session>

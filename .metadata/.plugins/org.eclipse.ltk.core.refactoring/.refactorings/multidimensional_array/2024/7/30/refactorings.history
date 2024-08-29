@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;multidimensional_array.maxinArray&apos; to &apos;maxAndSumin2dArray&apos;&#x0D;&#x0A;- Original project: &apos;multidimensional_array&apos;&#x0D;&#x0A;- Original element: &apos;multidimensional_array.maxinArray&apos;&#x0D;&#x0A;- Renamed element: &apos;multidimensional_array.maxAndSumin2dArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;maxinArray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;multidimensional_array{maxinArray.java[maxinArray" matchStrategy="1" name="maxAndSumin2dArray" qualified="false" references="true" similarDeclarations="false" stamp="1721548832454" textual="false" version="1.0"/>
+</session>
