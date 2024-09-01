@@ -2,7 +2,7 @@ package linkedlist;
 class node{
 	int val;
 	node next;
-	int temp;
+	node temp;
 	node(int val){
 		this.val=val;
 	}
