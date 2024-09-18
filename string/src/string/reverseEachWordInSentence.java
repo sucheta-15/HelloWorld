@@ -7,6 +7,7 @@ public class reverseEachWordInSentence {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		StringBuilder sb=new StringBuilder(sc.nextLine());
+		System.out.println("enter"); 
 		int i=0;int j=0;
 		int n=sb.length();
 		while(j<n) {
