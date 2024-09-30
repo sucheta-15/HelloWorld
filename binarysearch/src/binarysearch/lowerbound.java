@@ -6,7 +6,7 @@ public class lowerbound {
 		// TODO Auto-generated method stub
 		int[]arr= {23,44,56,76,88,89,99};
 		int n=arr.length;
-		int target=56;
+		int target=76;
 		int lb=n;
 		int lo=0, hi=n-1;
 		while(lo<=hi) {
