@@ -1,0 +1,26 @@
+package trees;
+
+public class levels_of_tree {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		node a=new node(10);
+		node b=new node(20);
+		node c=new node(30);
+		node d=new node(40);
+		node e=new node(50);
+		node f=new node(60);
+		node g=new node(70);
+		
+		a.left=b; a.right=c;
+		b.left=d; b.right=e;
+		c.left=f; c.right=g;
+		
+		
+		
+        System.out.println(level(a));
+	}
+	private static int level(node root) {
+		if(root==null) return 0;
+		return 1+ Math.max(level(root.left), level(root.right));
+	}
+}
