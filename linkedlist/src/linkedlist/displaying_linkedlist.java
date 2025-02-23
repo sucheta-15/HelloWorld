@@ -4,13 +4,13 @@ public class displaying_linkedlist {
 	public static void print(node head){
 		node temp=head;
 		while(temp!=null) {
-			System.out.println(temp.val);
+			System.out.print(temp.val+" ");
 			temp=temp.next;
 		}
 	}
 	public static void displayRecursively(node head) {
 		if(head==null) return;
-		System.out.println(head.val);
+		System.out.print(head.val+" ");
 		displayRecursively(head.next);
 	}
 public static void display(node head) {
